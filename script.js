@@ -16,10 +16,10 @@ let scores, currentScore, activeplayer, playing;
 
 //Starting Condition
 const init = function () {
-  const scores = [0, 0];
-  let currentScore = 0;
-  let activeplayer = 0;
-  let playing = true;
+  scores = [0, 0];
+  currentScore = 0;
+  activeplayer = 0;
+  playing = true;
   score0El.textContent = 0;
   score1El.textContent = 0;
   current0El.textContent = 0;
